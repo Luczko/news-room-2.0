@@ -1,0 +1,13 @@
+<div>
+  <div>
+    <input type="text" placeholder="title" [(ngModel)]="news.title" />
+  </div>
+  <div>
+    <input type="text" placeholder="news" [(ngModel)]="news.news" />
+  </div>
+  <div>
+    <input type="text" placeholder="photo url" [(ngModel)]="news.photoUrl" />
+  </div>
+  <button class="but" (click)="addNews()">Dodaj</button>
+  <app-button></app-button>
+</div>
