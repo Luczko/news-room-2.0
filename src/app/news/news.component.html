@@ -5,6 +5,14 @@
   >
     <p class="title">{{ item.title }}</p>
     <img src="{{ item.photoUrl }}" />
+    <button
+      [style.backgroundColor]="green"
+      class="like-button"
+      (click)="votes.emit(item)"
+    >
+      like - {{ item.votes }}
+    </button>
+    <button [style.backgroundColor]="red" class="like-button">delete</button>
     <p class="content">{{ item.news }}</p>
   </div>
 </div>

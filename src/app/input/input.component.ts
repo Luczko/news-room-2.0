@@ -15,6 +15,7 @@ export class InputComponent {
     title: '',
     news: '',
     photoUrl: '',
+    votes: 0,
   };
 
   addNews(): void {
@@ -23,6 +24,7 @@ export class InputComponent {
       title: '',
       news: '',
       photoUrl: '',
+      votes: 0,
     };
   }
   switchAdd(): void {

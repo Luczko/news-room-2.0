@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { News, NEWS } from '../news';
 
 @Component({
@@ -8,4 +8,7 @@ import { News, NEWS } from '../news';
 })
 export class NewsComponent {
   @Input() news: News[] = [];
+  @Output() votes = new EventEmitter<News>();
+  red = 'rgb(148, 0, 0)';
+  green = 'rgb(0, 148, 86)';
 }

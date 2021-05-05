@@ -14,4 +14,7 @@ export class AppComponent {
   onAdd(item: News): void {
     this.news.unshift(item);
   }
+  voteUp(item: News): void {
+    item.votes += 1;
+  }
 }
