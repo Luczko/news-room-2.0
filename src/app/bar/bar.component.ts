@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-bar',
   templateUrl: './bar.component.html',
-  styleUrls: ['./bar.component.css']
+  styleUrls: ['./bar.component.css'],
 })
 export class BarComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  @Input() title: string | undefined;
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

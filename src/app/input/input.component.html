@@ -1,13 +1,39 @@
 <div>
-  <div>
-    <input type="text" placeholder="title" [(ngModel)]="news.title" />
+  <div *ngIf="add" class="input-div">
+    <h1>GO ON, SHARE SOME NEWS</h1>
+    <div>
+      <input
+        class="my-input"
+        type="text"
+        placeholder="title"
+        [(ngModel)]="news.title"
+      />
+    </div>
+    <div>
+      <input
+        class="my-input"
+        type="text"
+        placeholder="news"
+        [(ngModel)]="news.news"
+      />
+    </div>
+    <div>
+      <input
+        class="my-input"
+        type="text"
+        placeholder="photo url"
+        [(ngModel)]="news.photoUrl"
+      />
+    </div>
+    <button class="my-button" (click)="addNews()">SUBMIT</button>
   </div>
   <div>
-    <input type="text" placeholder="news" [(ngModel)]="news.news" />
+    <ng-container *ngIf="add; then addOn; else addOff"></ng-container>
+    <ng-template #addOff>
+      <button class="floating-button" (click)="switchAdd()">ADD NEWS</button>
+    </ng-template>
+    <ng-template #addOn>
+      <button class="floating-button" (click)="switchAdd()">CANCEL</button>
+    </ng-template>
   </div>
-  <div>
-    <input type="text" placeholder="photo url" [(ngModel)]="news.photoUrl" />
-  </div>
-  <button class="but" (click)="addNews()">Dodaj</button>
-  <app-button></app-button>
 </div>

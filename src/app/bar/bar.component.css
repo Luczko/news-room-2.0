@@ -1,4 +1,16 @@
 .bar {
-  height: 50px;
-  background-color: rgb(172, 45, 45);
+  height: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-image: url("https://i.imgur.com/HbGwSvk.png");
+  background-repeat: no-repeat;
+  background-color: rgb(18, 40, 92);
+  background-position: center;
+}
+
+.my-span {
+  margin-top: 85px;
+  display: inline-block;
+  font-size: 25px;
+  color: azure;
 }

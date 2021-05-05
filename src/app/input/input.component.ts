@@ -9,6 +9,8 @@ import { News, NEWS } from '../news';
 export class InputComponent {
   @Output() newNews = new EventEmitter<News>();
 
+  add = false;
+
   news: News = {
     title: '',
     news: '',
@@ -22,5 +24,8 @@ export class InputComponent {
       news: '',
       photoUrl: '',
     };
+  }
+  switchAdd(): void {
+    this.add = !this.add;
   }
 }

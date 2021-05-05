@@ -2,3 +2,58 @@
   height: 20px;
   width: 70px;
 }
+
+.input-div {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(18, 40, 92);
+  padding: 10px;
+  background-image: url("https://pilkarskiswiat.com/wp-content/uploads/2020/03/Serie-A.jpg");
+  text-align: center;
+}
+
+.input-div h1 {
+  color: rgb(18, 40, 92);
+}
+
+.my-input {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.my-input:focus {
+  width: 100%;
+}
+
+.my-button {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(18, 40, 92);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.floating-button {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  top: 40px;
+  right: 40px;
+  background-color: rgb(233, 233, 233);
+  color: rgb(18, 40, 92);
+  border-radius: 50px;
+  border-color: rgb(219, 5, 5);
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+}
