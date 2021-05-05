@@ -1,1 +1,7 @@
-<p>rankings works!</p>
+<div class="rank">
+  <p class="header">MOST POPULAR</p>
+  <div *ngFor="let item of news" class="single-rank">
+    <p class="title">{{ item.title }}</p>
+    <p class="content">{{ item.news }}</p>
+  </div>
+</div>

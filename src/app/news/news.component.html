@@ -1,7 +1,10 @@
-<div>
-  <div *ngFor="let item of news">
-    <p>{{ item.title }}</p>
+<div class="container">
+  <div
+    *ngFor="let item of news; let odd = odd"
+    [ngClass]="odd ? 'single-1' : 'single-2'"
+  >
+    <p class="title">{{ item.title }}</p>
     <img src="{{ item.photoUrl }}" />
-    <p>{{ item.news }}</p>
+    <p class="content">{{ item.news }}</p>
   </div>
 </div>

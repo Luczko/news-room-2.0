@@ -1,0 +1,32 @@
+.rank {
+  float: left;
+  width: 20%;
+  margin-left: 5%;
+  margin-top: 0.5%;
+  text-align: center;
+  border-top: 2px solid rgb(13, 66, 110);
+}
+
+.single-rank {
+  text-align: left;
+  border: 2px solid rgb(13, 66, 110);
+  margin-bottom: 10px;
+}
+
+.header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 15px;
+  text-align: justify;
+  margin: 10px;
+}
