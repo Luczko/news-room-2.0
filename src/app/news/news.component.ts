@@ -9,6 +9,7 @@ import { News, NEWS } from '../news';
 export class NewsComponent {
   @Input() news: News[] = [];
   @Output() votes = new EventEmitter<News>();
+  @Output() delete = new EventEmitter<News>();
   red = 'rgb(148, 0, 0)';
   green = 'rgb(0, 148, 86)';
 }

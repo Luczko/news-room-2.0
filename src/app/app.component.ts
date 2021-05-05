@@ -17,4 +17,7 @@ export class AppComponent {
   voteUp(item: News): void {
     item.votes += 1;
   }
+  onDelete(item: News): void {
+    this.news = this.news.filter((e) => e !== item);
+  }
 }

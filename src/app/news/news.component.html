@@ -12,7 +12,13 @@
     >
       like - {{ item.votes }}
     </button>
-    <button [style.backgroundColor]="red" class="like-button">delete</button>
+    <button
+      [style.backgroundColor]="red"
+      class="like-button"
+      (click)="delete.emit(item)"
+    >
+      delete
+    </button>
     <p class="content">{{ item.news }}</p>
   </div>
 </div>
