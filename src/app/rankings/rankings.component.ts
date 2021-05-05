@@ -9,5 +9,6 @@ import { News, NEWS } from '../news';
 export class RankingsComponent implements OnInit {
   constructor() {}
   @Input() news: News[] = [];
+
   ngOnInit(): void {}
 }

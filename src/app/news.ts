@@ -3,6 +3,7 @@ export interface News {
   news: string;
   photoUrl: string;
   votes: number;
+  date: string | Date;
 }
 
 export const NEWS: News[] = [
@@ -13,6 +14,7 @@ export const NEWS: News[] = [
     photoUrl:
       'https://www.seriea.pl/wp-content/uploads/2021/04/immobile-correa-768x512.jpg',
     votes: 0,
+    date: '2021-04-26',
   },
   {
     title: 'Atalanta bez litości dla Bolonii. Pracowity mecz Skorupskiego',
@@ -21,6 +23,7 @@ export const NEWS: News[] = [
     photoUrl:
       'https://www.seriea.pl/wp-content/uploads/2021/04/muriel-luis-1-768x512.jpg',
     votes: 0,
+    date: '2021-04-25',
   },
   {
     title: 'Inter wykonał kolejny krok w kierunku tytułu',
@@ -29,5 +32,6 @@ export const NEWS: News[] = [
     photoUrl:
       'https://www.seriea.pl/wp-content/uploads/2021/04/darmian-matteo-768x512.jpg',
     votes: 0,
+    date: '2021-04-25',
   },
 ];

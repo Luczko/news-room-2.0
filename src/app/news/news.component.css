@@ -36,6 +36,12 @@
   border-top: 1px solid rgb(233, 233, 233);
 }
 
+.date {
+  color: rgb(233, 233, 233);
+  font-size: 15px;
+  display: block;
+}
+
 .single-1 img {
   border: 1px solid rgb(233, 233, 233);
   display: block;

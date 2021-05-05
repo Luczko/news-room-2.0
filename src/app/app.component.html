@@ -1,8 +1,8 @@
-<app-bar title="WORLD'S BEST FOOTBALL LEAGUE NEWS"></app-bar>
+<app-bar title="WORLD'S BEST FOOTBALL LEAGUE'S NEWS"></app-bar>
 <app-input (newNews)="onAdd($event)"></app-input>
 <app-news
   [news]="news"
   (votes)="voteUp($event)"
   (delete)="onDelete($event)"
 ></app-news>
-<app-rankings [news]="news"></app-rankings>
+<app-rankings [news]="sortedNews"></app-rankings>

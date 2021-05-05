@@ -25,7 +25,13 @@
         [(ngModel)]="news.photoUrl"
       />
     </div>
-    <button class="my-button" (click)="addNews()">SUBMIT</button>
+    <button
+      class="my-button"
+      [disabled]="news.title === '' || news.news === '' || news.photoUrl === ''"
+      (click)="addNews()"
+    >
+      SUBMIT
+    </button>
   </div>
   <div>
     <ng-container *ngIf="add; then addOn; else addOff"></ng-container>

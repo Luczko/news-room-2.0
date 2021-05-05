@@ -16,15 +16,18 @@ export class InputComponent {
     news: '',
     photoUrl: '',
     votes: 0,
+    date: '',
   };
 
   addNews(): void {
+    this.news.date = new Date();
     this.newNews.emit(this.news);
     this.news = {
       title: '',
       news: '',
       photoUrl: '',
       votes: 0,
+      date: '',
     };
   }
   switchAdd(): void {

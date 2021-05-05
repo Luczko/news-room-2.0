@@ -4,7 +4,11 @@
     [ngClass]="odd ? 'single-1' : 'single-2'"
   >
     <p class="title">{{ item.title }}</p>
-    <img src="{{ item.photoUrl }}" />
+    <p class="date">{{ item.date | date: "EEEE, d MMMM y":"":"pl" }}</p>
+    <img
+      src="{{ item.photoUrl }}"
+      onerror="this.onerror=null;this.src='https://lubsport.pl/wp-content/uploads/2021/03/Serie-A-Liga-wloska.jpg'"
+    />
     <button
       [style.backgroundColor]="green"
       class="like-button"
