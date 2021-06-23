@@ -13,6 +13,8 @@ Add, delete and vote for best news!
 - oddawanie głosów na najlepsze newsy
 - ranking najbardziej popularnych newsów
 
+/
+
 - adding news with current date with responsive forms
 - deleting news
 - voting for the best news
