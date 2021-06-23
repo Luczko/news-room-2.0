@@ -61,6 +61,24 @@
   max-width: 768px;
 }
 
+@media (max-width: 900px) {
+  .container {
+    margin: 0.5%;
+    width: 99%;
+    float: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .single-1 img {
+    width: 80%;
+  }
+
+  .single-2 img {
+    width: 80%;
+  }
+}
+
 .like-button {
   color: rgb(233, 233, 233);
   border: 2px solid rgb(18, 40, 92);

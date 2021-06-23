@@ -7,6 +7,14 @@
   border-top: 2px solid rgb(13, 66, 110);
 }
 
+@media (max-width: 900px) {
+  .rank {
+    float: none;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
 .single-rank {
   text-align: left;
   border: 2px solid rgb(13, 66, 110);
