@@ -1,5 +1,7 @@
 # NewsRoom - Serie A News
 
+https://luczko.github.io/news-room-2.0/
+
 Prosty projekt front-endowy strony z newsami z włoskiej Serie-A.
 Dodawaj, usuwaj i głosuj na najlepsze newsy!
 
