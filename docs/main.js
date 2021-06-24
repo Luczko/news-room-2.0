@@ -80,7 +80,7 @@ class NewsComponent {
     }
 }
 NewsComponent.ɵfac = function NewsComponent_Factory(t) { return new (t || NewsComponent)(); };
-NewsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NewsComponent, selectors: [["app-news"]], inputs: { news: "news" }, outputs: { votes: "votes", delete: "delete" }, decls: 2, vars: 1, consts: [[1, "container"], [3, "ngClass", 4, "ngFor", "ngForOf"], [3, "ngClass"], [1, "title"], [1, "date"], ["onerror", "this.onerror=null;this.src='../../assets/images/default.jpg'", 3, "src"], [1, "like-button", 3, "click"], [1, "content"]], template: function NewsComponent_Template(rf, ctx) { if (rf & 1) {
+NewsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NewsComponent, selectors: [["app-news"]], inputs: { news: "news" }, outputs: { votes: "votes", delete: "delete" }, decls: 2, vars: 1, consts: [[1, "container"], [3, "ngClass", 4, "ngFor", "ngForOf"], [3, "ngClass"], [1, "title"], [1, "date"], ["onerror", "this.onerror=null;this.src='https://lubsport.pl/wp-content/uploads/2021/03/Serie-A-Liga-wloska.jpg'", 3, "src"], [1, "like-button", 3, "click"], [1, "content"]], template: function NewsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NewsComponent_div_1_Template, 13, 15, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -137,7 +137,7 @@ class BarComponent {
     ngOnInit() { }
 }
 BarComponent.ɵfac = function BarComponent_Factory(t) { return new (t || BarComponent)(); };
-BarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BarComponent, selectors: [["app-bar"]], inputs: { title: "title" }, decls: 4, vars: 1, consts: [[1, "bar"], ["src", "../../assets/images/head-mobile.png"], [1, "my-span"]], template: function BarComponent_Template(rf, ctx) { if (rf & 1) {
+BarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BarComponent, selectors: [["app-bar"]], inputs: { title: "title" }, decls: 4, vars: 1, consts: [[1, "bar"], ["src", "https://upload.wikimedia.org/wikipedia/ru/f/f5/Logo_Serie_A_TIM_2019.png"], [1, "my-span"]], template: function BarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
