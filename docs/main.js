@@ -137,7 +137,7 @@ class BarComponent {
     ngOnInit() { }
 }
 BarComponent.ɵfac = function BarComponent_Factory(t) { return new (t || BarComponent)(); };
-BarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BarComponent, selectors: [["app-bar"]], inputs: { title: "title" }, decls: 4, vars: 1, consts: [[1, "bar"], ["src", "https://upload.wikimedia.org/wikipedia/ru/f/f5/Logo_Serie_A_TIM_2019.png"], [1, "my-span"]], template: function BarComponent_Template(rf, ctx) { if (rf & 1) {
+BarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BarComponent, selectors: [["app-bar"]], inputs: { title: "title" }, decls: 4, vars: 1, consts: [[1, "bar"], ["src", "https://tmssl.akamaized.net/images/logo/originals/it1.png?lm=1562052084"], [1, "my-span"]], template: function BarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
