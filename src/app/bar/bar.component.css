@@ -2,7 +2,7 @@
   height: 200px;
   margin-bottom: 10px;
   text-align: center;
-  background-image: url("/assets/images/head.png");
+  background-image: url("../../assets/images/head.png");
   background-repeat: no-repeat;
   background-color: rgb(18, 40, 92);
   background-position: center;
